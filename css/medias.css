@@ -1,0 +1,115 @@
+/* media for container */
+/* small screen */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* mid screen */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* large screeen */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* media for container */
+/* media for services */
+/* custom very small services start*/
+@media (min-width: 320px) {
+  .services,
+  .Portfolio,
+  .about,
+  .contact {
+    text-transform: capitalize;
+    .special-heading + p {
+      font-size: 10px;
+      margin-top: -15px;
+    }
+    .special-heading {
+      font-size: 50px;
+    }
+  }
+}
+/* custom mid mobil servieces */
+@media (min-width: 375px) {
+  .services,
+  .Portfolio,
+  .about,
+  .contact {
+    .special-heading + p {
+      font-size: 15px;
+      margin-top: -20px;
+    }
+    .special-heading {
+      font-size: 65px;
+    }
+  }
+}
+/* small screen */
+@media (min-width: 768px) {
+  .services,
+  .Portfolio,
+  .about,
+  .contact {
+    .special-heading + p {
+      font-size: 13px;
+    }
+    .special-heading {
+      font-size: 70px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .srv {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media (max-width: 1199px) {
+  .image-column {
+    display: none;
+  }
+}
+/* end services */
+/* start about */
+@media (max-width: 768px) {
+  .about-landing {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    .about-me {
+      img {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}
+/*end about  */
+/* contact */
+@media (max-width: 425px) {
+  .contact {
+    .contact-section {
+      h3 {
+        font-size: 20px;
+      }
+      a {
+        font-size: 20px;
+      }
+    }
+  }
+}
+@media (max-width: 768px) {
+  .contact {
+    .contact-section {
+      h3 {
+        font-size: 35px;
+        letter-spacing: -4px;
+      }
+    }
+  }
+}
